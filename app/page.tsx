@@ -5,11 +5,11 @@ import { buttonVariants } from "@/components/ui/button";
 export default function Home() {
   return (
     <div className="flex w-full justify-around">
-      <Link href="/login" className={buttonVariants()}>
-        Login
+      <Link href="/sign-in" className={buttonVariants()}>
+        Sign In
       </Link>
       <Link href="/sign-up" className={buttonVariants()}>
-        Sign up
+        Sign Up
       </Link>
       <ThemeToggle />
     </div>
